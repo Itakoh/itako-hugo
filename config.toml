@@ -1,3 +1,7 @@
 baseurl = "http://itakoh.github.io"
 languageCode = "ja-jp"
 title = "株式会社ITAKO"
+
+[Params]
+  email = "contact@itakoh.co.jp"
+  description = "娯楽を作って生きていく"
