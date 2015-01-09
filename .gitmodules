@@ -1,0 +1,3 @@
+[submodule "public"]
+	path = public
+	url = https://github.com/Itakoh/itakoh.github.io.git
