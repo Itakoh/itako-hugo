@@ -17,7 +17,7 @@ foo-barの部分はURLに含まれるのでそのつもりで。
 以下でHTMLを生成してブラウザで確認する。
 
 ```
-./hugo server --theme=hugo-uno --buildDrafts --watch
+./hugo server -t hugo-uno -w
 open http://localhost:1313
 ```
 
