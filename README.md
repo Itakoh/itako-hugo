@@ -13,6 +13,7 @@
 HTMLを生成してブラウザで確認する。
 
 > ./hugo server --theme=hugo-uno --buildDrafts --watch
+
 > open http://localhost:1313
 
 ファイル監視しているのでサーバ再起動は不要。
@@ -22,4 +23,4 @@ HTMLを生成してブラウザで確認する。
 ### 構築ノート
 
 * ロゴやイラストが出来たらfaviconとlogoとcoverを入れ替えるかも
-* hugo-unoテーマをリポジトリに取り込み 15f18365247ed72886e967022780fe5f2b19c472 のように手を入れている
+* hugo-unoテーマをリポジトリに取り込み commit: 15f18365 のように手を入れている
