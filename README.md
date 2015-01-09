@@ -1,29 +1,43 @@
-### 新しい記事(News)を追加して確認する
+### 下準備
 
-適当な場所にitako-hugoをcloneしたら、以下で記事のファイルを作成する。
+初回のみやる。
+
+```
+git clone https://github.com/Itakoh/itako-hugo.git
+cd itako-hugo
+./init-repos.sh
+```
+
+作業前に毎回やる。
+
+```
+./update-repos.sh
+```
+
+### 新しい記事の追加
 
 ```
 ./hugo new post/foo-bar.md
 ```
 
-foo-barの部分はURLに含まれるのでそのつもりで。
-
-作成されたcontent/post/foo-bar.mdを開き編集する。
+foo-barの部分はURLに含まれるのでそのつもりで。作成されたcontent/post/foo-bar.mdを開き編集する。
 
 * draft = trueを削除する
 * titleを付ける
 * +++の後にMarkdown記法で内容を書く
 
-以下でHTMLを生成してブラウザで確認する。
+以下でHTMLを生成してブラウザで確認する。ファイル監視しているので編集のたびにサーバ再起動は不要です。
 
 ```
 ./hugo server -t hugo-uno -w
 open http://localhost:1313
 ```
 
-ファイル監視しているのでサーバ再起動は不要です。
-
 ### デプロイ
+
+```
+./deploy.sh
+```
 
 ### 構築ノート
 
