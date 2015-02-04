@@ -5,5 +5,6 @@ title = "株式会社ITAKO"
 [Params]
   email = "contact@itakoh.co.jp"
   facebook = "ITAKO"
+  twitter = "ITAKOchan"
   description = "娯楽を作って生きていく"
   logo = "/images/icon.png"
