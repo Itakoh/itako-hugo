@@ -90,6 +90,9 @@ body {
 .fa-tt:before {
   content: ""; }
 
+.fa-fb:before {
+  content: "\f09a"; }
+
 .fa-github:before {
   content: ""; }
 
